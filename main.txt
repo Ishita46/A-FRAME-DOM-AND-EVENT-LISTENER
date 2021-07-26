@@ -1,0 +1,16 @@
+Architecture used in A-Frame:
+
+THREE.js
+
+ECS Architecture - Entity Component System
+
+Entity - Container tags
+
+Component - Data containers which we can attach to the entity.
+For example:
+
+Different types of components:-
+1) Single Property - <a-box position ="0 0 0">
+2) Multi-property - <a-entity light ="type: directional; intensity: 1; color="yellow">
+
+System - optional - these are the services for the components.
